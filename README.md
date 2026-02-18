@@ -1,15 +1,37 @@
-# TaskFlow — System Analysis + QA Automation Portfolio
+# TaskFlow — System Analysis + QA Automation (Python)
 
-This repository demonstrates a combined portfolio:
-- **System Analysis**: vision, requirements, user stories, UML/BPMN diagrams, DB schema, API specification (OpenAPI).
-- **QA Automation (Python)**: API tests + UI tests (Playwright) + CI pipeline (GitHub Actions).
+Portfolio project demonstrating end-to-end engineering approach:
+from **system analysis artifacts** to **automated API/UI tests** and **CI pipeline**.
 
-## Structure
-- `/docs` — analysis artifacts (vision, requirements, stories, DB schema)
-- `/diagrams` — UML/BPMN diagrams (exported as PNG/SVG)
-- `/api` — OpenAPI specification
-- `/automation-tests` — API/UI automated tests (pytest + requests + Playwright)
-- `/.github/workflows` — CI pipeline
+---
 
-## How to run tests (later)
-Will be added after test setup.
+## Highlights
+
+- **System Analysis**: Vision, Functional/Non-Functional requirements, User Stories + Acceptance Criteria
+- **Data Modeling**: DB schema + ER diagram
+- **QA Automation (Python)**:
+  - API tests: `pytest` + `requests`
+  - UI test: `pytest-playwright` (Playwright)
+  - pytest fixtures + session usage
+- **CI**: GitHub Actions runs tests on every push / pull request
+
+---
+
+## Repository Structure
+
+- `docs/` — analysis documents (vision, requirements, user stories, DB schema)
+- `diagrams/` — ER diagram and other diagrams
+- `automation-tests/`
+  - `api-tests/` — API automated tests
+  - `ui-tests/` — UI automated tests (Playwright)
+  - `requirements.txt` — python dependencies
+- `.github/workflows/` — CI pipeline
+
+---
+
+## How to Run Locally
+
+### 1) Create and activate venv (Windows)
+```bash
+py -m venv venv
+venv\Scripts\activate
