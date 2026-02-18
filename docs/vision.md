@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-TaskFlow is a task management system designed to help individuals and teams create, manage, and track tasks efficiently.
+TaskFlow is a task management system designed to help individuals and small teams organize, track, and complete tasks efficiently.
 
 The system improves productivity by providing clear task tracking, status updates, and collaboration features.
 
@@ -10,7 +10,7 @@ The system improves productivity by providing clear task tracking, status update
 
 ## 2. Problem Statement
 
-Many small teams and students manage tasks using scattered tools such as messengers, spreadsheets, or notes. This leads to:
+Many students and small teams manage tasks using scattered tools such as messengers, spreadsheets, or notes. This leads to:
 
 - lost tasks
 - lack of transparency
@@ -23,12 +23,12 @@ TaskFlow provides a centralized solution for task tracking and workflow manageme
 
 ## 3. Target Users
 
-### Primary users:
+### Primary users
 - Students managing study tasks
-- Small teams managing project work
-- Freelancers tracking assignments
+- Freelancing professionals
+- Small teams working on projects
 
-### Secondary users:
+### Secondary users
 - Team managers monitoring progress
 
 ---
@@ -46,7 +46,7 @@ The system aims to:
 
 ## 5. Product Scope
 
-### In Scope (included features):
+### In Scope
 
 ✔ User registration and login  
 ✔ Task creation and editing  
@@ -55,34 +55,34 @@ The system aims to:
 ✔ Comments on tasks  
 ✔ Task filtering and search  
 
-### Out of Scope (not included):
+### Out of Scope
 
 ✖ Payment processing  
-✖ Email marketing features  
-✖ Integration with external CRM systems  
+✖ CRM integrations  
+✖ Mobile application (initial version)  
 
 ---
 
 ## 6. Success Criteria
 
-The system will be considered successful if:
+The system will be successful if:
 
-- users can create and manage tasks easily
-- task status updates are clear and visible
-- teams can collaborate effectively
-- users complete tasks faster
+- users can easily create and manage tasks
+- task progress is clearly visible
+- teams collaborate effectively
+- deadlines are met more consistently
 
 ---
 
 ## 7. Assumptions
 
-- users have basic internet access
-- the system will be used via web browser
-- users understand basic task management workflows
+- users have internet access
+- the system is used via web browser
+- users understand basic task workflows
 
 ---
 
 ## 8. Constraints
 
 - initial version supports up to 1,000 users
-- web platform only (no mobile app)
+- web platform only
